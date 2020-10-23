@@ -2,12 +2,18 @@
 package com.vaibhav;
 
 //StringReplace=>replace() method  replaces all the old char by new char or CharSequence.
-public class StringReplace {
+//String replaceAll() => replace character
 
-	public static void main(String[] args) {
-		
-		  
-		  String str = "oooooo-hhhh-oooooo"; String rs = str.replace("h","s"); //
+public class StringReplace {
+	
+	static String str = "oooooo-hhhh-oooooo"; 
+	static String rs = str.replace("h","s"); 
+	
+	static String s11="a a a e e e a a a ";  
+	
+	
+	
+	public static void n() {
 		 // Replace h by s
 		  System.out.println(rs);
 		  
@@ -19,20 +25,22 @@ public class StringReplace {
 		String s1 = str1.replace("hi my name is vaibhav", "vaibhav");
 		System.out.println(s1);
 		System.out.println("===============================");
-		
-		
+	
 		
 		// String replaceAll() => replace character
-		
-		String s11="a a a e e e a a a ";  
 		String replaceString=s11.replaceAll("a","e");//replaces all occurrences of "a" to "e"  
 		System.out.println(replaceString);  
 		
 		//String replaceAll()=> remove white spaces
 		System.out.println("=================");
-		String s12="My name is vaibhav. My surname is Raut.";  
-		String replaceStrings=s12.replaceAll("\\s","");  
+		
+		String replaceStrings=s11.replaceAll("\\s","");  
 		System.out.println(replaceStrings);  
+		
+	}
+
+	public static void main(String[] args) {
+		StringReplace.n();
 	}
 
 }

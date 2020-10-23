@@ -3,10 +3,12 @@ package com.vaibhav;
 //split()=> method splits this string  and returns a char array.
 public class Split {
 
-	public static void main(String[] args) {
 
-		String s1 = "My name is vaibhav ";
-		String[] words = s1.split("\\s");// splits whitespace
+	static String s1 = "My name is vaibhav ";
+	static String[] words = s1.split("\\s");// splits whitespace
+	
+	public static void m() {
+		
 			for(String w:words){ 
 			  System.out.println(w);//
 			  }
@@ -21,9 +23,15 @@ public class Split {
 		     System.out.println("words:");  
 		     for(String w:s11.split("\\s",2)){  
 		     System.out.println(w);  
-		     
-		     
-		     }  
-		 
+		
 	}
+	}
+	public static void main(String[] args) {
+
+		     
+		     Split.m();
+		      
+		 
+	
+}
 }
