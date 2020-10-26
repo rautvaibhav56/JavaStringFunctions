@@ -9,26 +9,14 @@ public class StartsWith {
 
 		System.out.println(s1.startsWith(s));
 
-		/*
-		 * //String startsWith() System.out.println(s1.startsWith("My"));
-		 * System.out.println(s1.startsWith("name"));
-		 * System.out.println(s1.startsWith("vaibhav"));
-		 * System.out.println(s1.startsWith("is"));
-		 * 
-		 */
+
 
 	}
 
+	// startsWith(String prefix, int offset)
 	public static void m1(String str, int i) {
 
-		// startsWith(String prefix, int offset)
 		System.out.println(s1.startsWith(str, i));
-
-		/*
-		 * System.out.println(s1.startsWith("y",1));
-		 * System.out.println(s1.startsWith("n",3));
-		 * System.out.println(s1.startsWith("a",4))
-		 */ 
 
 	}
 
@@ -37,6 +25,7 @@ public class StartsWith {
 		StartsWith.m("a");
 		StartsWith.m("My");
 		StartsWith.m("vaibhav");
+		
 		System.out.println("-----------------");
 		
 		StartsWith.m1("n", 3);

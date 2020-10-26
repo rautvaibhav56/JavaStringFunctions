@@ -6,7 +6,6 @@ public class Substring {
 	
 	//1>String substring(int startIndex) 
 	public static void sub(int i) {
-		
 		System.out.println(s1.substring(i));
 		
 	}
@@ -19,9 +18,11 @@ public class Substring {
 	
 	public static void main(String[] args) {
 		
-		Substring.sub(2);
+		Substring.sub2(0,4);
 		
-		Substring.sub2(0,9);
+		Substring.sub(4);
+		
+		
 	}
 
 }

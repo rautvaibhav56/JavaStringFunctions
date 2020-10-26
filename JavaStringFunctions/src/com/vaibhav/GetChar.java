@@ -6,26 +6,30 @@ public class GetChar {
 	
 	static char[] ch = new char[10];
 	
-	public static void m01() {
-	
+	//getChars(int srcBeginIndex,int srcEndiNDEX,char[]destination,int dstBeginIndex
+	public static void m(int srcBeginIndex,int srcEndiNDEX,char[]destination,int dstBeginIndex) {
 		try {
+			
 			str.getChars(6,10,ch,0);
-			//getChars(int srcBeginIndex,int srcEndiNDEX,char[]destination,int dstBeginIndex
 			
 			System.out.println(ch);
+			
 			} catch (Exception e) {
+				
 				System.out.println(e);
 			}
 			
 		
 }
+		
 	
 	
 	
 	public static void main(String[] args) {
 		
-		GetChar.m01();//java
+		GetChar.m(6,10,ch,0);//java
 	
+
 				
 	}
 
